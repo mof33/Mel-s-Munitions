@@ -1,0 +1,43 @@
+#base "items_game.txt"
+
+"items_game"
+{
+	"items"
+	{
+		"9000"
+		{
+			"name"						"Scout Superjump"					
+			"item_class"				"tf_wearable"
+			"item_slot"					"secondary"
+			"anim_slot"					"FORCE_NOT_USED"
+			"act_as_wearable"			"1"
+
+			"propername"				"1"
+			"item_name"					"Back-Alley Boosters"							
+			"item_type_name"			"Spring Boots"
+			"item_description"			"Description"
+			"image_inventory"			"backpack/weapons/c_models/c_rocketboots_soldier"
+			"used_by_classes"
+			{
+				"Scout"				"1"
+			}
+			"static_attrs"
+			{
+				"scout superjump" "1"
+			}
+			"mouse_pressed_sound"		"#ui/item_pack_pickup.wav"
+			"drop_sound"				"#ui/item_pack_drop.wav"
+		}
+	}
+	"attributes"
+	{
+		"20000"
+		{
+			"name"					"scout superjump"
+			"description_string"	"Hold Crouch to charge springs
+Release to launch yourself into the air"
+			"description_format"	"value_is_additive"
+			"effect_type"			"neutral"
+		}
+	}
+}
